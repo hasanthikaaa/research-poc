@@ -1,0 +1,8 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: axistech
+app: nextjs-app
+component: "@sls-next/serverless-component@3.7.0"
+
+name: my-nextjs-app
+inputs:
+  bucketName: my-nextjs-assets9
